@@ -1,0 +1,65 @@
+CS575
+Assignment 2:
+Deadline: 10th Feb, 2020, 23:59
+
+Implement Single, double and triple Exponential Smoothing for all the three datasets as provided. Do not use the built in libraries, use the ones mentioned on the page
+
+Single Exponential Smoothing
+https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc431.htm
+
+Double Exponential Smoothing (Single Smoothing does not excel in following the data when there is a trend)
+https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc433.htm
+
+Triple Exponential Smoothing (for trend and seasonality)
+https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc435.htm
+
+Three values for each of alpha, beta, gamma need to be taken. Example, For alpha test the MSE using values between [0.01-0.99] and similary check the affect of different combination of gamma and beta values on the MSE. At least check for 3 values of each alpha, beta, gamma.
+
+PS: Plot the predictions for each interval. Since you will try various values for alpha, beta, gamma, plot only the values for which you get the least MSE. For example if alpha, beta, gamma = 0.3, 0.4, 0.5 gives MSE = 1.5 for 1 hour prediction, and if alpha, beta, gamma = 0.2, 0.7, 0.3 gives MSE = 1.02 for 1 hour prediction, plot the latter one.
+
+Dataset 1 (D1):
+ADS - Hourly Data
+Compute the KPSS and ADF test and comment on the stationariety of the Dataset D1
+Predict values for the following intervals
+1 hour
+2 hour
+4 hour
+8 hour
+12 hour
+24 hour
+48 hour
+
+Make a table of the above intervals and report the least MSE for each of the interval.
+Plot the MSE for the constructed table.
+
+Dataset 2 (D2):
+Compute the KPSS and ADF test and comment on the stationariety of the Dataset D2
+Predict values for the following intervals
+
+1 month
+2 months
+4 months
+8 months
+12 months
+24 months
+
+Make a table of the above intervals and report the least MSE for each of the interval.
+Plot the MSE for the constructed table.
+
+Dataset 3 (D3):
+Convert to proper date time format and plot the original data. Compute the KPSS and ADF test and comment on the stationariety of the Dataset D3
+Predict values for the following intervals for airline-passengers.csv. Compute seasonality index for each month (Arrange data in a matrix of 12 months and years and compute)
+
+1 month
+2 months
+4 months
+8 months
+12 months
+24 months
+
+Make a table of the above intervals and report the least MSE for each of the interval.
+Plot the MSE for the constructed table.
+
+Also for D3, predict the futuristic 24 months i.e., from 1961-01 till 1962-12 and plot the complete data.
+
+After computing the above three dataset with Single, double and triple Exponential Smoothing; now you know the optimal values of alpha, beta, gamma. Use these values of alpha, beta, gamma and use the inbuilt functions provided and compare the errors difference with your implementation. 
