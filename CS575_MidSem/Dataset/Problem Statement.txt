@@ -1,0 +1,17 @@
+
+For each of the dataset you need to do the following tasks:
+Compute the KPSS and ADF test and comment on the stationariety of the Dataset
+If its not stationery, then make it stationery by differencing or other methods.
+*Appply the following algorithms
+Single, double and triple Exponential Smoothing for all the three datasets as provided. Do not use the built in libraries, use the ones you developed for the previous assignment.
+Only AR
+Only MA
+ARIMA
+SARIMA (if the data has seasonality)
+
+There is an excel file provided "Make Such a Table for every Dataset in Jupyter", make such a table in the ipynb notebook
+
+The dataset does not have time column, so you can assume a serialized time from 1 to n. (1 unit .. to n unit)
+
+You can choose and try different values of alpha, beta, gamma and provide those values of alpha, beta, gamma for which the MSE for the least. Similarly for AR/MA/ARIMA models, try out different combinations and mention the optimal one. You can use auto-arima.
+Plot the MSE for the constructed table.
