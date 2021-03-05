@@ -1,4 +1,7 @@
 
+
+Assignment_4 is updated. Details, pull the git repo https://github.com/cs575ts/Assignments
+
 Fit an AR, MA, ARMA, ARIMA, and SARIMA model on the electric production (Electric_Production.csv) and johnson & johnson dataset (jj.csv):
 	a. Test for stationarity (try all methods taught in class). 
 	b. With the help of graphs, discuss evidence of seasonality and nonstationarity. Is there a seasonality?
