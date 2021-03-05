@@ -6,3 +6,6 @@ Fit an AR, MA, ARMA, ARIMA, and SARIMA model on the electric production (Electri
 	d. Calculate RMSE, R-squared, NSE for all models. 
 	e. Plot the forecasted values and original values of the data obtained by all the models.
 	f. Compare the forecast based on plots and accuracies.
+	
+Deadline: 18th March, 23:59 hours.
+Push to your GitHub profile. 
