@@ -1,0 +1,8 @@
+
+Fit an AR, MA, ARMA, ARIMA, and SARIMA model on the electric production (Electric_Production.csv) and johnson & johnson dataset (jj.csv):
+	a. Test for stationarity (try all methods taught in class). 
+	b. With the help of graphs, discuss evidence of seasonality and nonstationarity. Is there a seasonality?
+	c. Obtain predictions for the 1, 2, 3, 4 subsequent years (To obtain the values of p,d,q please plot ACF and PACF graphs.) . Do in-sampling only (not futuristic)
+	d. Calculate RMSE, R-squared, NSE for all models. 
+	e. Plot the forecasted values and original values of the data obtained by all the models.
+	f. Compare the forecast based on plots and accuracies.
